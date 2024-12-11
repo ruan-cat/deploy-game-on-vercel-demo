@@ -1,0 +1,23 @@
+* text=auto
+
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.* text eol=lf
+
+*.png binary
+*.jpg binary
+
+# rm音频文件
+*.ogg binary
+
+# 字体文件
+*.ttf binary
+
+# 视频
+*.webm binary
+
+# rmmz的文件后缀
+*.wasm binary
+*.woff binary
+*.efkefc binary
+*.efkmodel binary
+
